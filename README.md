@@ -38,9 +38,6 @@ Neste projeto, serão importadas planilhas de forma dinâmica para o banco de da
 ![Template](https://github.com/TesteReteste/testeMP/blob/main/GG/TemplateCSV.png)
                                               
                                               
-Resumidamente, foram seguindos os seguintes passos:
-
-1 - Criação do modelo de dados utilizando o banco de dados sqlite.
 A criação do modelo se deu pelo uso do EF (Entity Framework) Core, um mapeador relacional de objeto (O/RM).
 Foram baixados os pacotes que fazem parte, via Nuget:                                                                   
 - Instalar Microsoft.EntityFrameworkCore (3.1.0)                                   
@@ -53,9 +50,6 @@ Foram baixados os pacotes que fazem parte, via Nuget:
 Ao rodar o projeto MenorPreco.Api, o banco de dados será criado automaticamento com o nome definido na string de conexão.                                     
 Serão criados três arquivos na pasta raiz do projeto MenorPreco.Api (MenorPreco.db, MenorPreco.db-shm e MenorPreco.db-wal)
 
-2 - O segundo passo foi criar uma rota (GET /v1/importar).                            
-*`Lembrando de ajustar os dados na tabela antes de enviar o arquivo .csv pela rota, como descrito anteriormente.`*
-                                              
 
 # Tecnologias e ferramentas
 
@@ -96,7 +90,7 @@ Na resposta, virá a url do Google Maps no retorno dos produtos pesquisado pelo 
 
 # Como usar
 
-Após clonar o projeto, verificar o template de exemplo para atualizar o banco de dados, conforme está na pasta GitHub deste projeto (https://github.com/renanegobbi/MenorPreco/blob/main/GitHub/dataset.csv)
+Após clonar o projeto, verificar o template de exemplo para atualizar o banco de dados, conforme está na pasta GitHub deste projeto (https://github.com/renanegobbi/MenorPreco/blob/main/GitHub/dataset.csv).                                                              
 Inicializar o projeto MenorPreco.Api.
 
 <img src="https://github.com/renanegobbi/MenorPreco/blob/main/GitHub/Passos%20iniciais.jpg" alt="drawing" width="720"/>
