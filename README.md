@@ -90,23 +90,20 @@ A primeira linha, que contém a descrição de cada coluna será ignorada quando
 PASSO 3
 
 A rota (GET /v1/produtos) receberá como parâmetro um código GTIN.
-
-
-PASSO 4 
-
-Incluindo a url do Google Maps no retorno dos produtos pesquisado pelo código GTIN, contendo o endereço do estabelecimento.
+Na resposta, virá a url do Google Maps no retorno dos produtos pesquisado pelo código GTIN, contendo o endereço do estabelecimento.
 
 ![Example](https://github.com/renanegobbi/MenorPreco/blob/main/GitHub/Gif_GET.gif)
 
 # Como usar
 
 Após clonar o projeto, verificar o template de exemplo para atualizar o banco de dados, conforme está na pasta GitHub deste projeto (https://github.com/renanegobbi/MenorPreco/blob/main/GitHub/dataset.csv)
+Inicializar o projeto MenorPreco.Api.
 
 <img src="https://github.com/renanegobbi/MenorPreco/blob/main/GitHub/Passos%20iniciais.jpg" alt="drawing" width="720"/>
 
 # Licença
 Este projeto está sob a licença do MIT. Consulte a [LICENÇA](https://github.com/TesteReteste/lim/blob/master/LICENSE) para obter mais informações.
-Inicializar o projeto MenorPreco.Api.
+
 
 
 
