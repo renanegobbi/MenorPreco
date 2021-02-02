@@ -100,8 +100,11 @@ Incluindo a url do Google Maps no retorno dos produtos pesquisado pelo código G
 
 # Como usar
 
-[]
+Após clonar o projeto, verificar o template de exemplo para atualizar o banco de dados, conforme está na pasta GitHub deste projeto (https://github.com/renanegobbi/MenorPreco/blob/main/GitHub/dataset.csv)
 
 # Licença
 Este projeto está sob a licença do MIT. Consulte a [LICENÇA](https://github.com/TesteReteste/lim/blob/master/LICENSE) para obter mais informações.
+Inicializar o projeto MenorPreco.Api.
+
+<img src="https://github.com/renanegobbi/MenorPreco/blob/main/GitHub/Passos%20iniciais.jpg" alt="drawing" width="720"/>
 
